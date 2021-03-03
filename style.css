@@ -96,12 +96,12 @@ a.inline:hover {
 a:hover, a:focus, .swappie:hover, #email:hover {
 	color: #086ff8;
     background-color: rgba(44, 45, 47, .1);
-    border: 1px solid #086ff8;
+    border: 1px solid #fa3c33;
     text-decoration: underline;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 56px;
 	color: #fa3c33;
     font-weight: 600;
     line-height: 1.25em;
