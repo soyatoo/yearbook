@@ -79,7 +79,8 @@ a {
     color: #000000;
     padding: 8px 8px 8px 8px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, .1)
+    border: 1px solid rgba(0, 0, 0, .1);
+    line-height: 50px;
 }
 
 a.inline {
@@ -145,31 +146,13 @@ h5 {
 /* Tablet */
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 32px;
-        line-height: 36px;
-    }
-    
-    h3 {
-        font-size: 18px;
-        line-height: 1.4em;
-    }
+
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    
-    h3 {
-        font-size: 16px;
-        line-height: 1.5em;
-        font-weight: 600;
-    }
-    
+
 }
 
 /* Tablet */
@@ -181,26 +164,11 @@ h5 {
         width: 75%;
     }
 
-    .sidebar a {
-        font-size: 16px;
-    }
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 400px) {
-    .sidebar, #menu {
-        top: 80px;
-    }
-
-    .sidebar {
-        display: initial;
-        left: 6%;
-    }
-
-    #navRes {
-        visibility: collapse;
-    }
 
     #content {
         top: 80px;
